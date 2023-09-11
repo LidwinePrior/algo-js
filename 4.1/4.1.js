@@ -1,10 +1,16 @@
-// 4.1 créer un programme qui demande aux users la longeur et largeru d'un rectangle et afficher la surface de celui-ci 
+// 4.1 créer un programme qui calcule la surface d'un rectangle avec longueur et largeur donné par utilisateurs
 
-function calcSurface(length, width) {
-    return length * width;
+
+
+function calcSurface(length, width) {  //fonction appelle la longueur et largeur
+    return length * width;  //returns renvoie au calcul de la surface d'un rectangle
 }
 
-let length = parseFloat(prompt("Enter the length of a rectangle"));
-let width = parseFloat(prompt("Enter the width of a rectangle"));
 
+// demande à l'utilisateur la longueur et la largeur du rectangle
+let length = prompt("Enter the length of a rectangle");
+let width = prompt("Enter the width of a rectangle");
+
+
+// affiche la surface
 console.log(calcSurface(length, width));
