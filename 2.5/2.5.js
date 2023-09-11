@@ -4,3 +4,4 @@ do {
     alert("Are you sure?");
 } while (favNum != "42");
 
+
