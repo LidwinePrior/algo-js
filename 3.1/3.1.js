@@ -1,3 +1,5 @@
+// 3.1 addtionner des éléments 
+
 let arr = [1, 2, 3, 4, 5];
 let amount = 0;
 for( let i= 0; i < arr.length; i++) {
