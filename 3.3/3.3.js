@@ -24,3 +24,4 @@ arr.forEach(function(nom) { //appelle chaque élement un a un => ca eviter d'aff
 arrDup.forEach(function(nom) {
     console.log(nom)
 });
+
